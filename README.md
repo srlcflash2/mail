@@ -11,6 +11,6 @@ $> export PATH="$PATH:./node_modules/.bin"
 $> mjml -V
 
 
-#Run
+# Run
 
 $> mjml --watch [filename].mjml
