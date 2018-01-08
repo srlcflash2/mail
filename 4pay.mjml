@@ -1,0 +1,80 @@
+<mjml>
+	
+	<mj-head>
+	    <mj-attributes>
+	    	<mj-class name="p_0" padding="0" />
+	    	<mj-class name="p_m_0" padding="0" margin="0"/>
+	    	<mj-class name="p_t_50" padding-top="50"/>
+	    	<mj-class name="bg-grey" background-color="#f7f7f7"/>
+	    	<mj-class name="bg-blue" background-color="#2b85e7"/>
+	    	<mj-class name="bg-white" background-color="#ffffff"/>
+			<mj-class name="text-blue" color="#0273d4" />
+			<mj-class name="text-green" font-size="16px" color="#536e7a" />
+			<mj-class name="border-button" 
+				padding-top="0" 
+				font-size="16px" 
+				font-weight="700" 
+				color="#3289e8" 
+				border="2px solid #3289e8" 
+				background-color="#f7f7f7"
+				padding-top="0"
+				align="left"
+				cursor="pointer"
+				/>
+
+
+	     	<mj-all  margin="0" font-family="Arial" />
+	    </mj-attributes>
+	</mj-head>
+
+	<mj-body>
+		<mj-container >
+
+		    <mj-section mj-class="bg-grey p_0"  full-width="full-width" >
+	            <mj-column mj-class="bg-white">
+	            	<mj-spacer height="50px" />
+	               	<mj-image width="164px" src="./logo.png" />
+	               	<mj-spacer height="30px" />
+	            </mj-column>
+	        </mj-section>
+
+	        <mj-section mj-class="bg-blue " padding="0 0 30px 0" full-width="full-width">
+	            <mj-column mj-class="bg-grey" width="100%">
+	                
+	                <mj-text mj-class="text-blue" font-size="24px" padding-bottom="40" padding-top="30">
+	                    Hi Shenil,
+	                </mj-text>
+
+	                <mj-text mj-class="text-green" padding-top="0" padding-bottom="20">
+	                	We would like inform that we are going for a new HR Information System which is more simplified	                   
+	                </mj-text>
+
+	                <mj-text mj-class="text-green" padding-top="0" padding-bottom="20">
+	                	You can now log in to the new Portal through the following credentials	                   
+	                </mj-text>
+
+	                 <mj-table>
+	                     <tr>
+			              <td style="width:115px;font-size:16px;font-weight:700;color:#000000">Username</td>
+			              <td style="font-size:16px;font-weight:700;color:#000000">:&nbsp shenil@arpicofinance.com</td>		             
+			            </tr>
+			            <tr>
+			              <td style="width:115px;font-size:16px;font-weight:700;color:#000000">Password</td>
+			              <td style="font-size:16px;font-weight:700;color:#000000">:&nbsp Gth63@45p</td>		             
+			            </tr>
+	                 </mj-table>
+					 
+					 <mj-spacer height="30px" />
+
+	                 <mj-button mj-class="border-button" href="#">
+			            Start Now
+			         </mj-button>
+
+			         <mj-spacer height="30px" />	           
+	            </mj-column>	           
+	        </mj-section>
+
+		</mj-container>
+	</mj-body>
+
+</mjml>
