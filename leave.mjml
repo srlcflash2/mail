@@ -48,6 +48,12 @@
 	<mj-body>
 		<mj-container >
 
+			<mj-section mj-class="bg-grey p_0"  full-width="full-width" >
+	            <mj-column>
+	            	<mj-spacer height="30px" />
+	            </mj-column>
+	        </mj-section>
+	        
 		    <mj-section mj-class="bg-grey p_0"  full-width="full-width" >
 	            <mj-column mj-class="bg-white">
 	            	<mj-spacer height="50px" />

@@ -10,6 +10,7 @@
 	    	<mj-class name="bg-white" background-color="#ffffff"/>
 			<mj-class name="text-blue" color="#0273d4" />
 			<mj-class name="text-green" font-size="16px" color="#536e7a" />
+			<mj-class name="text-upper" text-transform="uppercase" />
 			<mj-class name="border-button" 
 				padding-top="0" 
 				font-size="16px" 
@@ -22,6 +23,18 @@
 				cursor="pointer"
 				/>
 
+			<mj-class name="border-button-dark-blue" 
+				color="#014c75" 
+				border="2px solid #014c75" 
+				background-color="#f7f7f7"
+				/>
+
+			<mj-class name="border-button-grey" 
+				color="#bcbcbc" 
+				border="2px solid #bcbcbc" 
+				background-color="#f7f7f7"
+				/>
+
 
 	     	<mj-all  margin="0" font-family="Arial" />
 	    </mj-attributes>
@@ -29,11 +42,18 @@
 
 	<mj-body>
 		<mj-container >
+ 			
+ 			<mj-section mj-class="bg-grey p_0"  full-width="full-width" >
+	            <mj-column>
+	            	<mj-spacer height="30px" />
+	            </mj-column>
+	        </mj-section>
 
 		    <mj-section mj-class="bg-grey p_0"  full-width="full-width" >
+
 	            <mj-column mj-class="bg-white">
 	            	<mj-spacer height="50px" />
-	               	<mj-image width="164px" src="./logo.png" />
+	               	<mj-image width="164px" src="http://arpicofin.onehris.com/uploads/company/logo/logo.png" />
 	               	<mj-spacer height="30px" />
 	            </mj-column>
 	        </mj-section>
@@ -42,7 +62,7 @@
 	            <mj-column mj-class="bg-grey" width="100%">
 	                
 	                <mj-text mj-class="text-blue" font-size="24px" padding-bottom="40" padding-top="30">
-	                    Hi Shenil,
+	                    Hi&nbsp;[empName],
 	                </mj-text>
 
 	                <mj-text mj-class="text-green" padding-top="0" padding-bottom="20">
@@ -56,19 +76,31 @@
 	                 <mj-table>
 	                     <tr>
 			              <td style="width:115px;font-size:16px;font-weight:700;color:#000000">Username</td>
-			              <td style="font-size:16px;font-weight:700;color:#000000">:&nbsp shenil@arpicofinance.com</td>		             
+			              <td style="font-size:16px;font-weight:700;color:#000000">:&nbsp;[username]</td>		             
 			            </tr>
 			            <tr>
 			              <td style="width:115px;font-size:16px;font-weight:700;color:#000000">Password</td>
-			              <td style="font-size:16px;font-weight:700;color:#000000">:&nbsp Gth63@45p</td>		             
+			              <td style="font-size:16px;font-weight:700;color:#000000">:&nbsp;[password]</td>		             
 			            </tr>
 	                 </mj-table>
 					 
 					 <mj-spacer height="30px" />
 
-	                 <mj-button mj-class="border-button" href="#">
-			            Start Now
-			         </mj-button>
+	                 
+			         <mj-group width="100%">
+					     <mj-column width="30%">
+					         <mj-button padding-right="0" mj-class="text-upper border-button" href="http://arpicofin.onehris.com">
+					            Start Now
+					         </mj-button>
+					     </mj-column>					    
+
+					     <mj-column width="50%">
+					         <mj-button padding-right="0" mj-class="text-upper border-button border-button-grey" href="https://www.youtube.com/channel/UCFjmlaYYLWxy_0q163QIvRA">
+					      		Video Tutorial
+							</mj-button>
+					     </mj-column>
+
+					 </mj-group>
 
 			         <mj-spacer height="30px" />	           
 	            </mj-column>	           
